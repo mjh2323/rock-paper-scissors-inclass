@@ -11,12 +11,17 @@ print("-------------------")
 
 
 
-x = input("Please choose either 'rock', 'paper', or 'scissors': ")
+user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
 
-print(x)
-print("You chose: ", x)
+print(user_choice)
+print("You chose:  {user_choice}")
 
 
+# simulating a computer input 
+
+computer_choice = "paper"
+
+print("The computer chose: {computer_choice}")
 
 exit()
 
