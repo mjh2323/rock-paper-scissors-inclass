@@ -1,5 +1,7 @@
 # game.py
 
+import random
+
 print("Rock, Paper, Scissors, Shoot!")
 
 
@@ -17,9 +19,12 @@ print(user_choice)
 print("You chose:  {user_choice}")
 
 
+
+
 # simulating a computer input 
 
-computer_choice = "paper"
+options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(options)
 
 print("The computer chose: {computer_choice}")
 
