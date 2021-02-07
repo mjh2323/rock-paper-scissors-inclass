@@ -65,7 +65,7 @@ elif user_choice == "scissors":
     elif computer_choice == "scissors":
         print("Maybe next time.")
 else:
-    print("OOPS SOMETHING WENT WRONG.")
+    print("It seems you entered incorrectly! Please only enter either rock, paper, or scissors next time.")
 
 
 
