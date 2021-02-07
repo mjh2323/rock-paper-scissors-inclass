@@ -16,7 +16,7 @@ print("-------------------")
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
 
 print(user_choice)
-print("You chose:  {user_choice}")
+print("You chose:" {user_choice})
 
 
 
@@ -26,7 +26,7 @@ print("You chose:  {user_choice}")
 options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(options)
 
-print("The computer chose: {computer_choice}")
+print("The computer chose:" {computer_choice})
 
 
 #
