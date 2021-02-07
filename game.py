@@ -2,12 +2,13 @@
 
 import random
 
+player_name = input("Hello and welcome, please enter your name: ")
 print("Rock, Paper, Scissors, Shoot!")
 
 
 
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print("Welcome", player_name, "to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 
