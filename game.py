@@ -44,7 +44,7 @@ if user_choice == computer_choice:
 
 if user_choice == "rock":
     if computer_choice == "rock":
-        print("Oh, it's a tie.")
+        print("Maybe next time.")
     elif computer_choice == "paper":
         print("Oh, the computer won. It's ok.")
     elif computer_choice == "scissors":
@@ -53,7 +53,7 @@ elif user_choice == "paper":
     if computer_choice == "rock":
         print("Oh, you won! Nice job.")
     elif computer_choice == "paper":
-        print("Oh, it's a tie.")
+        print("Maybe next time.")
     elif computer_choice == "scissors":
         print("Oh, the computer won. It's ok.")
 elif user_choice == "scissors":
@@ -62,7 +62,7 @@ elif user_choice == "scissors":
     elif computer_choice == "paper":
         print("Oh, you won! Nice job.")
     elif computer_choice == "scissors":
-        print("Oh, it's a tie.")
+        print("Maybe next time.")
 else:
     print("OOPS SOMETHING WENT WRONG.")
 
